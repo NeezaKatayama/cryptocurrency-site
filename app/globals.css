@@ -25,3 +25,38 @@ body {
     rgba(0, 0, 0, 0.35) 3px
   );
 }
+
+@keyframes chartPulse {
+  0%,
+  100% {
+    transform: scale(0.92);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.18);
+    opacity: 1;
+  }
+}
+
+@keyframes chartFloat {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(0, -12px, 0) scale(1.04);
+  }
+}
+
+.chart-pulse {
+  animation: chartPulse 1.35s ease-in-out infinite;
+}
+
+.chart-float {
+  animation: chartFloat 7s ease-in-out infinite;
+}
+
+.chart-float-delayed {
+  animation: chartFloat 9s ease-in-out infinite;
+  animation-delay: -3s;
+}
