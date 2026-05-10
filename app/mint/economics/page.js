@@ -33,7 +33,8 @@ export default function MintEconomicsPage() {
         Step 04 · Economics
       </p>
       <p className="mt-3 font-mono text-sm leading-relaxed text-white/65">
-        全部で何枚出すかと、小数点以下を何桁まで扱うかを決めます。
+        発行する総枚数と、小数点以下を何桁まで使えるかを決めます。
+        これは「1枚をどこまで細かく分けて売買できるか」に関わる設定です。
       </p>
 
       <div className="mt-10 grid gap-8 sm:grid-cols-2">

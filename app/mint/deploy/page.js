@@ -50,7 +50,8 @@ export default function MintDeployPage() {
         Step 05 · Deploy pulse
       </p>
       <p className="mt-3 font-mono text-sm leading-relaxed text-white/65">
-        あとは画面の演出だけです。すぐ次の画面に進みます。
+        ここでは、仮想通貨をネットワークへ送信しているような流れをシミュレーション表示しています。
+        実際のガス代や承認待ちは発生せず、そのまま次の画面へ進みます。
       </p>
 
       <div className="mt-10 rounded-xl border border-cyber-cyan/30 bg-black/50 p-6 shadow-neonCyan">

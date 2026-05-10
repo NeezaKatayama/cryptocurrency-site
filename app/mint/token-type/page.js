@@ -9,19 +9,19 @@ const TYPES = [
   {
     id: "utility",
     title: "Utility surge",
-    subtitle: "サービス内で使う・割引や特典に使う、といったイメージ。",
+    subtitle: "サービス内の支払い、会員特典、割引などに使う実用型のイメージです。",
     badge: "USE",
   },
   {
     id: "meme",
     title: "Meme nova",
-    subtitle: "勢いやノリ重視。ミームコインっぽい位置づけ。",
+    subtitle: "話題性やコミュニティの盛り上がりを重視した、ミームコイン風のタイプです。",
     badge: "VIBE",
   },
   {
     id: "gov",
     title: "Governance lattice",
-    subtitle: "投票や提案でコミュニティで決める、というイメージ。",
+    subtitle: "投票や提案に使い、コミュニティで方針を決める用途をイメージしたタイプです。",
     badge: "DAO",
   },
 ];
@@ -45,7 +45,8 @@ export default function MintTokenTypePage() {
         Step 02 · Archetype
       </p>
       <p className="mt-3 font-mono text-sm leading-relaxed text-white/65">
-        どんな用途のトークンにするか、近いものを選んでください。
+        次に、このトークンを何に使うのかを選びます。
+        用途が決まると、どんな人に向けた仮想通貨なのかが伝わりやすくなります。
       </p>
 
       <div className="mt-8 flex flex-col gap-4">

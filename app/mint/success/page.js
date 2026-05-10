@@ -54,7 +54,8 @@ export default function MintSuccessPage() {
         Step 06 · Acknowledgment
       </p>
       <p className="mt-3 font-mono text-sm leading-relaxed text-white/65">
-        シミュレーション上のコントラクトが生成された。以下はダミーのトランザクションハッシュ。
+        シミュレーション上でトークンの発行が完了しました。
+        下の文字列は、実際の取引履歴に見立てたダミーのトランザクションハッシュです。
       </p>
 
       <p className="mt-4 inline-flex items-center gap-2 rounded-lg border border-cyber-cyan/30 bg-cyber-cyan/5 px-3 py-2 font-mono text-[11px] text-cyber-cyan/90">

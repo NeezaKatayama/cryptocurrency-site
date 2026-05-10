@@ -25,8 +25,8 @@ export default function MintChartPage() {
         Step 07 · Synthetic market
       </p>
       <p className="mt-3 font-mono text-sm leading-relaxed text-white/65">
-        リアルタイムのラインチャートとペーパー売買デスク。
-        約定は表示中の最終ティック価格。外部データ・実際のブロックチェーンはありません。
+        発行後の値動きをイメージできるリアルタイム風チャートと、練習用の売買画面です。
+        売買は表示中の価格で即時に反映されますが、外部データや本物のブロックチェーンには接続していません。
       </p>
 
       <div className="mt-6 rounded-lg border border-cyber-magenta/25 bg-cyber-magenta/5 px-4 py-3 font-mono text-xs text-white/70">

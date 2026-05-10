@@ -60,7 +60,7 @@ export default function PaperTrading({ symbol = "TKN", price }) {
     }
     setAmount("");
     refresh();
-    setMsg(`約 ${formatTok(r.tokensOut)} ${symbol} を約定（手数料込シミュ）`);
+    setMsg(`約 ${formatTok(r.tokensOut)} ${symbol} を購入しました（手数料を含むシミュレーション結果です）`);
   }
 
   function onSell() {
@@ -81,7 +81,7 @@ export default function PaperTrading({ symbol = "TKN", price }) {
     setAmount("");
     refresh();
     setMsg(
-      `約 ${formatUsd(r.usdIn)} USD（¥${formatJpyFromUsd(r.usdIn)}）を獲得（手数料差引後シミュ）`,
+      `約 ${formatUsd(r.usdIn)} USD（¥${formatJpyFromUsd(r.usdIn)}）を受け取りました（手数料差引後のシミュレーション結果です）`,
     );
   }
 
@@ -95,7 +95,7 @@ export default function PaperTrading({ symbol = "TKN", price }) {
           Paper desk · market
         </p>
         <p className="font-mono text-[10px] text-white/40">
-          fee 0.10% · USD/JPY {USD_JPY_RATE}（固定）· シミュのみ
+          手数料 0.10% ・ USD/JPY {USD_JPY_RATE}（固定）・ 練習用シミュレーション
         </p>
       </div>
 
@@ -125,7 +125,7 @@ export default function PaperTrading({ symbol = "TKN", price }) {
 
       <label className="mt-5 block">
         <span className="font-mono text-[10px] uppercase tracking-widest text-white/45">
-          Amount · Buy = USD / Sell = {symbol}
+          金額・数量入力欄（購入は USD / 売却は {symbol}）
         </span>
         <input
           value={amount}

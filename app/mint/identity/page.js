@@ -26,7 +26,8 @@ export default function MintIdentityPage() {
         Step 03 · Identity
       </p>
       <p className="mt-3 font-mono text-sm leading-relaxed text-white/65">
-        トークンの名前と、取引所で見えるような略称（ティッカー）を入れてください。
+        トークン名と略称を入力します。
+        略称は取引所やウォレットで表示される短い名前で、株の銘柄コードに近いイメージです。
       </p>
 
       <div className="mt-10 grid gap-8 sm:grid-cols-2">
